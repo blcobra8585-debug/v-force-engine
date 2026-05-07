@@ -1,0 +1,9 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  record: ^5.1.0        # Mic record karne ke liye
+  audioplayers: ^5.2.1  # Output sunne ke liye
+  http: ^1.2.0          # ElevenLabs API call ke liye
+  path_provider: ^2.1.2 # Audio file save karne ke liye
+  flutter_secure_storage: ^9.0.0 # API Key safe rakhne ke liye
+  
