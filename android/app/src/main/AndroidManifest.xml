@@ -1,0 +1,12 @@
+<manifest ...>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+
+    <application ...>
+        <service android:name="com.vforce.VoiceService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+    </application>
+</manifest>
