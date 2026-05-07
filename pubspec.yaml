@@ -1,6 +1,7 @@
-name: v_force_engine
-description: "God Level Voice Changer for Android 16"
+ name: v_force_engine
+description: "God Level Voice Changer 2026"
 version: 1.0.0+1
+publish_to: 'none'
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
